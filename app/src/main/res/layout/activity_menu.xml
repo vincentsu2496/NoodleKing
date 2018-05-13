@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    >
+
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context="com.example.vincent.myapplication.FunctionActivity"-->
+    <!--wrap_content modify to match_parent-->
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--app:srcCompat="@drawable/cover" />-->
+    <Spinner
+        android:id="@+id/spinnerDistance"
+        android:layout_width="100dp"
+        android:layout_height="30dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPrice"
+        android:layout_width="120dp"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/ButtonGo"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Go!" />
+
+    <TextView
+        android:id="@+id/TextViewMap"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Show Map" />
+
+</LinearLayout>
